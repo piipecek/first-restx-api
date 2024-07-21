@@ -16,3 +16,7 @@ register_model = api.model("Register", {
     "email": fields.String,
     "password": fields.String
 })
+
+message = api.model("Message", {
+    "message": fields.String
+})
